@@ -1,0 +1,124 @@
+.left {
+    grid-area: left;
+}
+
+.CollInit {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.CollInit .Item{
+    height: 31%;
+    width: 95%;
+}
+.RowInit{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.right {
+    grid-area: right;
+}
+
+.bottom {
+    grid-area: bottom;
+}
+
+.SpecialItem {
+    width: 20%;
+    background-color: black;
+    border-radius: 15px;
+    line-height: 75px;
+    color: red;
+}
+.SpecialItem h2{
+    font-size: 24px;
+    letter-spacing: 4px;
+    transform: rotateZ(-15deg);
+}
+.Green {
+    background-color: green;
+}
+
+.Red {
+    background-color: red;
+}
+
+.Blue {
+    background-color: blue;
+}
+
+.main {
+    grid-area: main;
+    background-color: rgb(255, 255, 255);
+    margin: 15% 20%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 2px black;
+    color: black;
+}
+
+.Statistika {
+    background-color: white;
+    width: 25%;
+    height: 80%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 2px black;
+    padding: 0.5%;
+}
+
+.Statistika h1 {
+    font-size: 24px;
+    text-decoration: underline;
+    padding: 1px;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.Steps{
+    margin-top: 15%;
+    margin: 10% 5%;
+    overflow-y: auto;
+    height: 400px;
+}
+.StepItem{
+    padding: 1% 0%;
+}
+.StepItem h2::first-letter{
+    font-size: 36px;
+    text-transform: capitalize;
+}
+.StepItem h2{
+    color: rgb(231, 73, 73);
+}
+.Desk {
+    color: blanchedalmond;
+    box-shadow: 0 0 0 2.5px red, 0 0 0 5px white, 0 0 0 7.5px red;
+    width: 70%;
+    border-radius: 15px;
+    height: 90%;
+    display: grid;
+    grid-template-areas: "top top top" "left main right" "bottom bottom bottom";
+    grid-template-rows: 15% 70% 15%;
+    grid-template-columns: 20% 60% 20%;
+    background-color: rgb(200, 255, 0);
+}
+
+.top {
+    grid-area: top;
+    border-top-right-radius: 15px;
+}
+
+.Item {
+    height: 85%;
+    width: 19%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 1px black;
+}
+.Item h1{
+    font-size: 16px;
+    text-align: left;
+    padding-left: 5px;
+    padding-right: 5px;
+}

@@ -1,38 +1,58 @@
+*{
+  box-sizing: border-box;
+}
+body,html{
+  height: 100%;
+  width: 100%;
+}
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: rgb(238, 197, 144);
+  width: 100%;
+  height: 100%;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
 }
-
-.App-link {
-  color: #61dafb;
+.Ml{
+  padding: 1.5% 5%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Ml input{
+  outline: none;
+  padding: 5px 15px;
+  margin-right: 25px;
+}
+.Ml button{
+  padding: 5px 15px;
+}
+.Toast{
+  width: 500px;
+  margin-left: -20%;
+}
+.ToastContent{
+  color: rgb(238, 58, 58);
+  font-size: 36px;
+  padding: 1% 5%;
+  width: 100%;
+}
+table{
+  border: 1px solid black;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+}
+tr,td{
+  border: 1px solid black;
+}
+.coll1{
+  width: 10%;
+}
+.coll2{
+  width: 60%;
+}
+.coll3{
+  width: 20%;
+}
+.coll4{
+  width: 10%;
 }
